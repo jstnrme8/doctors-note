@@ -8,7 +8,7 @@ const MoneyBack = () => {
         <div className="flex items-center max-w-3xl">
           <div className="w-45 h-45 mr-6 flex-shrink-0">
             <Image 
-              src="/money-back.webp"
+              src="https://cdn.prod.website-files.com/674755c8acccd926c40d29ae/6790d778b0c1c07478996883_Group%201321319131.svg"
               alt="Money back guarantee"
               width={300}
               height={300}
