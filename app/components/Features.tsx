@@ -7,10 +7,13 @@ export default function Features() {
         <section className="max-w-6xl mx-auto py-10 px-4">
 
             <h2 className="text-5xl font-bold text-center mb-2 text-black">Get Peace of Mind</h2>
-            <h3 className="text-5xl font-bold text-center mb-2 text-black">With <span className="text-[#2323fd] relative inline-block">My Doctors<img 
-                    src="https://cdn.prod.website-files.com/674755c8acccd926c40d29ae/678b383926e210a9cdedefc3_Vector%206601.svg" 
-                    alt="underline" 
-                    className="absolute -bottom-4 left-0 w-full" 
+            <h3 className="text-5xl font-bold text-center mb-2 text-black">With <span className="text-[#2323fd] relative inline-block">My Doctors
+                <Image
+                    src="https://cdn.prod.website-files.com/674755c8acccd926c40d29ae/678b383926e210a9cdedefc3_Vector%206601.svg"
+                    alt="underline"
+                    width={200}
+                    height={20}
+                    className="absolute -bottom-4 left-0 w-full"
                 /></span> <span className="text-[#2323fd]">Note</span></h3>
             <div className="flex justify-center mb-5 pt-5">
                 <p className="text-left text-gray-600 max-w-lg text-lg">
@@ -85,7 +88,7 @@ export default function Features() {
                             <span className="mr-2 mt-1">•</span>
                             <div>
                                 <span className="font-bold">Always Here for You</span> – Get assistance whenever you need it, day or night.
-                        </div>
+                            </div>
                         </li>
                         <li className="flex items-start">
                             <span className="mr-2 mt-1">•</span>
@@ -97,7 +100,7 @@ export default function Features() {
                     <div className="flex items-center mt-6">
                         <div className="flex -space-x-2">
                             {/* Replace with actual support team images */}
-                            <img src="https://cdn.prod.website-files.com/674755c8acccd926c40d29ae/6789e26f1ee5aa607faa42ac_Frame%202147207361.png" alt="Support Team" className="w-60" />
+                            <Image src="https://cdn.prod.website-files.com/674755c8acccd926c40d29ae/6789e26f1ee5aa607faa42ac_Frame%202147207361.png" alt="Support Team" className="w-60" width={200} height={200} />
                         </div>
                         <p className="text-[#00c48c] font-bold ml-4 text-lg">We're ready to help!</p>
                     </div>
