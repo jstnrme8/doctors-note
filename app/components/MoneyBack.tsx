@@ -12,7 +12,7 @@ const MoneyBack = () => {
               alt="Money back guarantee"
               width={300}
               height={300}
-              className="w-80 h-80"
+              className="w-45 h-45"
             />
           </div>
           <div>
