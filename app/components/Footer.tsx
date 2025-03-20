@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Assistant } from 'next/font/google'
 import useInView from '../hooks/useInView'
+import Image from 'next/image'
 
 const assistant = Assistant({ 
   subsets: ['latin'],
@@ -27,7 +28,13 @@ export default function Footer() {
               section1InView ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-10'
             }`}
           >
-            <img src="https://mydoctorsnote.co/cdn/shop/files/bcnjac0hn1ggv3xvmavh.webp?v=1740566885&width=1100" alt="DoctorsNote Logo" className="h-5 mb-6" />
+            <Image 
+              src="https://mydoctorsnote.co/cdn/shop/files/bcnjac0hn1ggv3xvmavh.webp?v=1740566885&width=1100" 
+              alt="DoctorsNote Logo" 
+              width={100}
+              height={20}
+              className="h-5 mb-6" 
+            />
             <p className="text-gray-600 text-base mb-4">
               <strong>Support</strong> (Mon-Fri, 9am-6pm EST)
             </p>

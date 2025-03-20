@@ -38,7 +38,7 @@ export default function Steps() {
     {
       image: '/pdf-document.webp',
       title: 'Receive Your PDF In 1 Minute',
-      description: 'After you\'ve completed the checkout, your pre-filled sick leave will be sent by email within 1 minute, and it will be ready on the payment confirmation page.',
+      description: 'After you&apos;ve completed the checkout, your pre-filled sick leave will be sent by email within 1 minute, and it will be ready on the payment confirmation page.',
       alt: 'Receive your PDF'
     },
     {
@@ -51,7 +51,7 @@ export default function Steps() {
 
   return (
     <section className="max-w-6xl mx-auto py-10 px-4">
-      <h2 className="text-5xl font-bold text-center mb-2 text-black">Get An Online Doctor's</h2>
+      <h2 className="text-5xl font-bold text-center mb-2 text-black">Get An Online Doctor&apos;s</h2>
       <h3 className="text-5xl font-bold text-center mb-4 text-black">Note In 3 Easy Steps</h3>
       <div className="flex justify-center mb-12">
         <p className="text-left text-gray-600 max-w-2xl text-xl">

@@ -14,7 +14,7 @@ export default function Features() {
                 /></span> <span className="text-[#2323fd]">Note</span></h3>
             <div className="flex justify-center mb-5 pt-5">
                 <p className="text-left text-gray-600 max-w-lg text-lg">
-                    My Doctor's Note provides a fast, hassle-free solution for obtaining excuse notes. Focus on your recovery while we<br />take care of the paperwork, delivering your note in minutes.
+                    My Doctor&apos;s Note provides a fast, hassle-free solution for obtaining excuse notes. Focus on your recovery while we<br />take care of the paperwork, delivering your note in minutes.
                 </p>
             </div>
 
@@ -42,9 +42,9 @@ export default function Features() {
                         </li>
                     </ul>
                     <div className="flex justify-between items-center mt-6">
-                        <img src="https://mydoctorsnote.co/cdn/shop/files/gempages_552571548410578040-9a2cfbe1-9947-4a93-8b87-51daab807ae9_768x.svg?323" alt="Walmart" className="h-10 object-contain" />
-                        <img src="https://mydoctorsnote.co/cdn/shop/files/gempages_552571548410578040-6817383f-7f4d-4e15-8e1c-05fed29356e4_768x.svg?323" alt="FedEx" className="h-10 object-contain" />
-                        <img src="https://mydoctorsnote.co/cdn/shop/files/gempages_552571548410578040-90e43877-7d57-4219-af6e-0dd369345276_768x.webp?323" alt="Starbucks" className="h-10 object-contain" />
+                        <Image src="https://mydoctorsnote.co/cdn/shop/files/gempages_552571548410578040-9a2cfbe1-9947-4a93-8b87-51daab807ae9_768x.svg?323" alt="Walmart" width={100} height={40} className="h-10 object-contain" />
+                        <Image src="https://mydoctorsnote.co/cdn/shop/files/gempages_552571548410578040-6817383f-7f4d-4e15-8e1c-05fed29356e4_768x.svg?323" alt="FedEx" width={100} height={40} className="h-10 object-contain" />
+                        <Image src="https://mydoctorsnote.co/cdn/shop/files/gempages_552571548410578040-90e43877-7d57-4219-af6e-0dd369345276_768x.webp?323" alt="Starbucks" width={100} height={40} className="h-10 object-contain" />
                     </div>
                 </div>
 

@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
       <div className="relative z-20 pt-28 tracking-widest ">
-        <h1 className="text-5xl font-bold text-white mb-2 mt-2">Your Doctor's Note</h1>
+        <h1 className="text-5xl font-bold text-white mb-2 mt-2">Your Doctor&apos;s Note</h1>
         <div className="relative inline-block mb-6">
           <h2 className="text-5xl font-bold text-white">
             In 1 Minute, for $29,99!
