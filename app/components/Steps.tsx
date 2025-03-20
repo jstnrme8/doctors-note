@@ -7,11 +7,12 @@ interface StepCardProps {
   title: string
   description: string
   alt: string
+  className?: string
 }
 
-function StepCard({ image, title, description, alt }: StepCardProps) {
+function StepCard({ image, title, description, alt, className = "" }: StepCardProps) {
   return (
-    <div className="bg-[#dae9fd] rounded-lg p-6 text-center">
+    <div className={`bg-[#dae9fd] rounded-lg p-6 text-center ${className}`}>
       <div className="relative w-60 h-60 mx-auto mb-3">
         <Image
           src={image}
@@ -20,8 +21,8 @@ function StepCard({ image, title, description, alt }: StepCardProps) {
           className="object-cover"
         />
       </div>
-      <h4 className="font-bold text-xl mb-2 text-black">{title}</h4>
-      <p className="text-gray-600 text-left text-sm">{description}</p>
+      <h4 className="font-bold text-2xl mb-2 text-black">{title}</h4>
+      <p className="text-gray-600 text-left text-sm tracking-wider">{description}</p>
     </div>
   )
 }
@@ -51,14 +52,21 @@ export default function Steps() {
   return (
     <section className="max-w-6xl mx-auto py-10 px-4">
       <h2 className="text-5xl font-bold text-center mb-2 text-black">Get An Online Doctor's</h2>
-      <h3 className="text-5xl font-bold text-center mb-2 text-black">Note In 3 Easy Steps</h3>
-      <p className="flex justify-center text-left text-gray-600 mb-12">
-        With our online platform we make it quick and simple for you to obtain a doctors note, so you can focus on rest and recovery.
-      </p>
+      <h3 className="text-5xl font-bold text-center mb-4 text-black">Note In 3 Easy Steps</h3>
+      <div className="flex justify-center mb-12">
+        <p className="text-left text-gray-600 max-w-2xl text-xl">
+          With our online platform we make it quick and simple for you to obtain a
+          doctors note, so you can focus on rest and recovery.
+        </p>
+      </div>
       
       <div className="grid md:grid-cols-3 gap-8">
         {steps.map((step, index) => (
-          <StepCard key={index} {...step} />
+          <StepCard 
+            key={index} 
+            {...step} 
+            className={index === 0 ? "mb-20" : ""}
+          />
         ))}
       </div>
 

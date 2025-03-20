@@ -7,13 +7,19 @@ export default function Features() {
         <section className="max-w-6xl mx-auto py-10 px-4">
 
             <h2 className="text-5xl font-bold text-center mb-2 text-black">Get Peace of Mind</h2>
-            <h3 className="text-5xl font-bold text-center mb-2 text-black">With <span className="text-blue-500 underline">My Doctors Note</span></h3>
-            <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-                My Doctor's Note provides a fast, hassle-free solution for obtaining excuse notes. Focus on your recovery while we take care of the paperwork, delivering your note in minutes.
-            </p>
+            <h3 className="text-5xl font-bold text-center mb-2 text-black">With <span className="text-[#2323fd] relative inline-block">My Doctors<img 
+                    src="https://cdn.prod.website-files.com/674755c8acccd926c40d29ae/678b383926e210a9cdedefc3_Vector%206601.svg" 
+                    alt="underline" 
+                    className="absolute -bottom-4 left-0 w-full" 
+                /></span> <span className="text-[#2323fd]">Note</span></h3>
+            <div className="flex justify-center mb-5 pt-5">
+                <p className="text-left text-gray-600 max-w-lg text-lg">
+                    My Doctor's Note provides a fast, hassle-free solution for obtaining excuse notes. Focus on your recovery while we<br />take care of the paperwork, delivering your note in minutes.
+                </p>
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="p-6 bg-blue-100 rounded-lg">
+                <div className="p-6 bg-blue-100 rounded-lg tracking-wider">
                     <h3 className="text-xl font-bold mb-4">Trusted by Thousands Across the USA</h3>
                     <ul className="space-y-4">
                         <li className="flex items-start">
@@ -42,39 +48,69 @@ export default function Features() {
                     </div>
                 </div>
 
-                <div className="p-6 bg-blue-100 rounded-lg">
+                <div className="p-6 bg-blue-100 rounded-lg mb-5">
                     <h3 className="text-xl font-bold mb-4">Get Your Note In Under 1 Minute</h3>
                     <ul className="space-y-3">
-                        <li><span className="font-bold">Skip the Wait</span> – No appointments, no delays. Get what you need instantly, anytime.</li>
-                        <li><span className="font-bold">Available 24/7</span> – No need to schedule weeks in advance. Access your document on demand, day or night.</li>
-                        <li><span className="font-bold">Instant Email Delivery</span> – Receive your note directly in your inbox, ready to use.</li>
+                        <li className="flex items-start">
+                            <span className="mr-2 mt-1">•</span>
+                            <div>
+                                <span className="font-bold">Skip the Wait</span> – No appointments, no delays. Get what you need instantly, anytime.
+                            </div>
+                        </li>
+                        <li className="flex items-start">
+                            <span className="mr-2 mt-1">•</span>
+                            <div>
+                                <span className="font-bold">Available 24/7</span> – No need to schedule weeks in advance. Access your document on demand, day or night.
+                            </div>
+                        </li>
+                        <li className="flex items-start">
+                            <span className="mr-2 mt-1">•</span>
+                            <div>
+                                <span className="font-bold">Instant Email Delivery</span> – Receive your note directly in your inbox, ready to use.
+                            </div>
+                        </li>
                     </ul>
                 </div>
 
-                <div className="p-6 bg-blue-100 rounded-lg">
+                <div className="p-6 bg-blue-100 rounded-lg tracking-wider">
                     <h3 className="text-xl font-bold mb-4">Customer Support That Puts You First</h3>
                     <ul className="space-y-3">
-                        <li><span className="font-bold">Adjustable to Your Needs</span> – Easily modify details to match your situation.</li>
-                        <li><span className="font-bold">Always Here for You</span> – Get assistance whenever you need it, day or night.</li>
-                        <li><span className="font-bold">Real People, Real Support</span> – Our team is here to help, every step of the way.</li>
+                        <li className="flex items-start">
+                            <span className="mr-2 mt-1">•</span>
+                            <div>
+                                <span className="font-bold">Adjustable to Your Needs</span> – Easily modify details to match your situation.
+                            </div>
+                        </li>
+                        <li className="flex items-start">
+                            <span className="mr-2 mt-1">•</span>
+                            <div>
+                                <span className="font-bold">Always Here for You</span> – Get assistance whenever you need it, day or night.
+                        </div>
+                        </li>
+                        <li className="flex items-start">
+                            <span className="mr-2 mt-1">•</span>
+                            <div>
+                                <span className="font-bold">Real People, Real Support</span> – Our team is here to help, every step of the way.
+                            </div>
+                        </li>
                     </ul>
                     <div className="flex items-center mt-6">
                         <div className="flex -space-x-2">
                             {/* Replace with actual support team images */}
                             <img src="https://cdn.prod.website-files.com/674755c8acccd926c40d29ae/6789e26f1ee5aa607faa42ac_Frame%202147207361.png" alt="Support Team" className="w-60" />
                         </div>
-                        <p className="text-green-500 ml-4">We're ready to help!</p>
+                        <p className="text-[#00c48c] font-bold ml-4 text-lg">We're ready to help!</p>
                     </div>
                 </div>
 
-                <div className="p-6 bg-blue-100 rounded-lg text-center">
-                    <h3 className="text-xl font-bold mb-4">The Best Price In The Market</h3>
-                    <p className="text-gray-500 line-through mb-2">$42.99</p>
-                    <p className="text-6xl font-bold mb-2">$29.99</p>
-                    <p className="text-green-500 text-lg">30% Discount - Limited Time!</p>
+                <div className="p-6 bg-blue-100 rounded-lg text-center tracking-wider">
+                    <h3 className="text-2xl font-bold mb-8">The Best Price In The Market</h3>
+                    <p className="text-3xl font-bold text-gray-500 line-through mb-8">$42.99</p>
+                    <p className="text-6xl font-bold mb-8">$29.99</p>
+                    <p className="text-[#00c48c] font-bold text-2xl">30% Discount - Limited Time!</p>
                 </div>
             </div>
-            <div className="pt-10 mt-2">
+            <div className="pt-10 mt-2 tracking-widest text-center">
                 <CTAButton text="Get Your Doctors Note Now →" />
             </div>
         </section>

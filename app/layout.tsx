@@ -10,7 +10,7 @@ const instrumentSans = Instrument_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DoctorsNote",
+  title: "My Doctors Note",
   description: "Get your doctor's note in 1 minute",
 };
 
